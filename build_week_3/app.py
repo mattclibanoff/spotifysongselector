@@ -7,8 +7,8 @@ import joblib
 
 
 
-'build_week_3/nn' = joblib.load('model.z')
-'build_week_3/enc' = joblib.load('encoder.z')
+nn = joblib.load('build_week_3/model.z')
+enc = joblib.load('build_week_3/encoder.z')
 X = get_x()
 
 def create_app():
