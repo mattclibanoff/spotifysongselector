@@ -1,14 +1,14 @@
 import pandas as pd
 from flask import Flask, render_template, request
 import sys
-sys.path.insert(1,"BUILD_WEEK_3/build_week_3")
-from Spotify_model import song_suggester, song, get_x, get_list
+#sys.path.insert(1,"BUILD_WEEK_3/build_week_3")
+from .Spotify_model import song_suggester, song, get_x, get_list
 import joblib 
 
 
 
-nn = joblib.load('model.z')
-enc = joblib.load('encoder.z')
+'build_week_3/nn' = joblib.load('model.z')
+'build_week_3/enc' = joblib.load('encoder.z')
 X = get_x()
 
 def create_app():
