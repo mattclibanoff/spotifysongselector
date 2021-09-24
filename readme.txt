@@ -3,3 +3,6 @@ This app will predict 5 songs you may enjoy based off of your favorite song. Her
 Enter your name
 Enter your favorite song
 Enjoy the given songs!
+
+
+Created by Matt Clibanoff and Brett Havertz
