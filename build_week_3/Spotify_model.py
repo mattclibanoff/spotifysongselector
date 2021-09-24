@@ -11,7 +11,7 @@ import joblib
 from sklearn.preprocessing import LabelEncoder
 
 
-df = pd.read_csv("BUILD_WEEK_3/build_week_3/Spotify_data.csv")
+df = pd.read_csv("build_week_3/Spotify_data.csv")
 
 df.head(2)
 
